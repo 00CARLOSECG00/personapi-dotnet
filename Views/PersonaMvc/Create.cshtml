@@ -1,0 +1,24 @@
+﻿@model personapi.Models.Entities.Persona
+
+<h1>Agregar Persona</h1>
+
+<form asp-action="Create" method="post">
+    <label>Cédula:</label>
+    <input asp-for="Cc" /><br />
+
+    <label>Nombre:</label>
+    <input asp-for="Nombre" /><br />
+
+    <label>Apellido:</label>
+    <input asp-for="Apellido" /><br />
+
+    <label>Edad:</label>
+    <input asp-for="Edad" /><br />
+
+    <label>Género:</label>
+    <input asp-for="Genero" /><br />
+
+    <button type="submit">Guardar</button>
+</form>
+
+<a asp-action="Index">Volver</a>

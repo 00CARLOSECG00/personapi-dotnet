@@ -1,0 +1,25 @@
+﻿@model personapi.Models.Entities.Estudio
+
+<h2>Editar Estudio</h2>
+
+<form asp-action="Edit" method="post">
+    <div>
+        <label>ID Profesión:</label>
+        <input asp-for="IdProf" class="form-control" />
+    </div>
+    <div>
+        <label>Cédula Persona:</label>
+        <input asp-for="CcPer" class="form-control" />
+    </div>
+    <div>
+        <label>Fecha:</label>
+        <input asp-for="Fecha" type="date" class="form-control" />
+    </div>
+    <div>
+        <label>Universidad:</label>
+        <input asp-for="Univer" class="form-control" />
+    </div>
+    <button type="submit" class="btn btn-primary mt-2">Guardar cambios</button>
+</form>
+
+<a asp-action="Index" class="btn btn-secondary mt-2">Volver</a>

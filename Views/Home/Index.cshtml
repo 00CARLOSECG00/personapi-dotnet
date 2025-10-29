@@ -1,0 +1,24 @@
+﻿@{
+    ViewData["Title"] = "Inicio";
+}
+
+<h1>Gestión de Entidades</h1>
+<hr />
+
+<div style="display:flex; gap:20px; margin-top:20px;">
+    <form asp-controller="PersonaMvc" asp-action="Index">
+        <button type="submit">Personas</button>
+    </form>
+
+    <form asp-controller="ProfesionMvc" asp-action="Index">
+        <button type="submit">Profesiones</button>
+    </form>
+
+    <form asp-controller="EstudioMvc" asp-action="Index">
+        <button type="submit">Estudios</button>
+    </form>
+
+    <form asp-controller="TelefonoMvc" asp-action="Index">
+        <button type="submit">Teléfonos</button>
+    </form>
+</div>

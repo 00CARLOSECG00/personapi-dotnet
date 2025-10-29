@@ -1,0 +1,21 @@
+﻿@model personapi.Models.Entities.Telefono
+
+<h2>Editar Teléfono</h2>
+
+<form asp-action="Edit" method="post">
+    <div>
+        <label>Número:</label>
+        <input asp-for="Num" class="form-control" />
+    </div>
+    <div>
+        <label>Dueño:</label>
+        <input asp-for="Duenio" class="form-control" />
+    </div>
+    <div>
+        <label>Operador:</label>
+        <input asp-for="Oper" class="form-control" />
+    </div>
+    <button type="submit" class="btn btn-primary mt-2">Guardar cambios</button>
+</form>
+
+<a asp-action="Index" class="btn btn-secondary mt-2">Volver</a>

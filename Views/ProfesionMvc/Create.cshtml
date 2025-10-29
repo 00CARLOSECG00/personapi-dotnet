@@ -1,0 +1,12 @@
+﻿@model personapi.Models.Entities.Profesion
+
+<h1>Agregar Profesión</h1>
+
+<form asp-action="Create" method="post">
+    <label>ID:</label> <input asp-for="Id" /><br />
+    <label>Nombre:</label> <input asp-for="Nom" /><br />
+    <label>Descripción:</label> <input asp-for="Des" /><br />
+    <button type="submit">Guardar</button>
+</form>
+
+<a asp-action="Index">Volver</a>

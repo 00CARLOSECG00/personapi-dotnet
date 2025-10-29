@@ -1,0 +1,72 @@
+﻿@model IEnumerable<personapi.Models.Entities.Estudio>
+@{
+    ViewData["Title"] = "Estudios";
+}
+
+<div class="container mt-4">
+    <div class="d-flex justify-content-between align-items-center mb-3">
+        <a href="/Home/Index" class="btn btn-secondary">🏠 Home</a>
+        <h3>Gestión de Estudios</h3>
+        <span><strong>Total:</strong> @ViewBag.Total</span>
+    </div>
+
+    <form asp-action="Buscar" method="get" class="row g-2 mb-4">
+        <div class="col-md-5">
+            <input type="number" name="id_prof" placeholder="ID Profesión..." class="form-control" required />
+        </div>
+        <div class="col-md-5">
+            <input type="number" name="cc_per" placeholder="CC Persona..." class="form-control" required />
+        </div>
+        <div class="col-md-2">
+            <button type="submit" class="btn btn-outline-primary w-100">Buscar</button>
+        </div>
+    </form>
+
+    @if (ViewBag.Mensaje != null)
+    {
+        <div class="alert alert-warning">@ViewBag.Mensaje</div>
+    }
+
+    @if (Model != null && Model.Count() == 1)
+    {
+        var e = Model.First();
+        <div class="card mb-4 p-3 bg-light">
+            <h5>Resultado de la búsqueda</h5>
+            <p><strong>ID Profesión:</strong> @e.IdProf</p>
+            <p><strong>CC Persona:</strong> @e.CcPer</p>
+            <p><strong>Universidad:</strong> @e.Univer</p>
+            <p><strong>Fecha:</strong> @e.Fecha?.ToShortDateString()</p>
+        </div>
+    }
+
+    <div class="d-flex justify-content-end mb-3">
+        <a asp-action="Create" class="btn btn-success">➕ Registrar Estudio</a>
+    </div>
+
+    <table class="table table-bordered table-striped text-center">
+        <thead class="table-dark">
+            <tr>
+                <th>ID Profesión</th>
+                <th>CC Persona</th>
+                <th>Universidad</th>
+                <th>Fecha</th>
+                <th>Acciones</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var e in Model)
+            {
+                <tr>
+                    <td>@e.IdProf</td>
+                    <td>@e.CcPer</td>
+                    <td>@e.Univer</td>
+                    <td>@e.Fecha?.ToShortDateString()</td>
+                    <td>
+                        <a asp-action="Edit" asp-route-id_prof="@e.IdProf" asp-route-cc_per="@e.CcPer" class="btn btn-warning btn-sm">✏️ Editar</a>
+                        <a asp-action="Delete" asp-route-id_prof="@e.IdProf" asp-route-cc_per="@e.CcPer" class="btn btn-danger btn-sm">🗑️ Eliminar</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

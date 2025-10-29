@@ -1,0 +1,75 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = personapi
+build_property.RootNamespace = personapi
+build_property.ProjectDir = /home/estudiante/Desktop/noborrar/pry/personapi/personapi/
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = /home/estudiante/Desktop/noborrar/pry/personapi/personapi
+build_property._RazorSourceGeneratorDebug = 
+
+[/home/estudiante/Desktop/noborrar/pry/personapi/personapi/Views/EstudioMvc/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRXN0dWRpb012Yy9DcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/estudiante/Desktop/noborrar/pry/personapi/personapi/Views/EstudioMvc/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRXN0dWRpb012Yy9FZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/estudiante/Desktop/noborrar/pry/personapi/personapi/Views/EstudioMvc/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRXN0dWRpb012Yy9JbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/estudiante/Desktop/noborrar/pry/personapi/personapi/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9JbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/estudiante/Desktop/noborrar/pry/personapi/personapi/Views/PersonaMvc/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUGVyc29uYU12Yy9DcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/estudiante/Desktop/noborrar/pry/personapi/personapi/Views/PersonaMvc/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUGVyc29uYU12Yy9FZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/estudiante/Desktop/noborrar/pry/personapi/personapi/Views/PersonaMvc/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUGVyc29uYU12Yy9JbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/estudiante/Desktop/noborrar/pry/personapi/personapi/Views/ProfesionMvc/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUHJvZmVzaW9uTXZjL0NyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/estudiante/Desktop/noborrar/pry/personapi/personapi/Views/ProfesionMvc/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUHJvZmVzaW9uTXZjL0VkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/estudiante/Desktop/noborrar/pry/personapi/personapi/Views/ProfesionMvc/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUHJvZmVzaW9uTXZjL0luZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/estudiante/Desktop/noborrar/pry/personapi/personapi/Views/TelefonoMvc/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVGVsZWZvbm9NdmMvQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/estudiante/Desktop/noborrar/pry/personapi/personapi/Views/TelefonoMvc/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVGVsZWZvbm9NdmMvRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/estudiante/Desktop/noborrar/pry/personapi/personapi/Views/TelefonoMvc/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVGVsZWZvbm9NdmMvSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/estudiante/Desktop/noborrar/pry/personapi/personapi/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 

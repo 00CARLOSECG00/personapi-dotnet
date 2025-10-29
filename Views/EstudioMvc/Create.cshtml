@@ -1,0 +1,13 @@
+﻿@model personapi.Models.Entities.Estudio
+
+<h1>Agregar Estudio</h1>
+
+<form asp-action="Create" method="post">
+    <label>ID Profesión:</label> <input asp-for="IdProf" /><br />
+    <label>CC Persona:</label> <input asp-for="CcPer" /><br />
+    <label>Fecha:</label> <input asp-for="Fecha" type="date" /><br />
+    <label>Universidad:</label> <input asp-for="Univer" /><br />
+    <button type="submit">Guardar</button>
+</form>
+
+<a asp-action="Index">Volver</a>

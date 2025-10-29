@@ -1,0 +1,12 @@
+﻿@model personapi.Models.Entities.Telefono
+
+<h1>Agregar Teléfono</h1>
+
+<form asp-action="Create" method="post">
+    <label>Número:</label> <input asp-for="Num" /><br />
+    <label>Operador:</label> <input asp-for="Oper" /><br />
+    <label>Dueño (CC):</label> <input asp-for="Duenio" /><br />
+    <button type="submit">Guardar</button>
+</form>
+
+<a asp-action="Index">Volver</a>

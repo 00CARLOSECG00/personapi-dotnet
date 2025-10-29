@@ -1,0 +1,12 @@
+﻿@model personapi.Models.Entities.Profesion
+
+<h1>Editar Profesión</h1>
+
+<form asp-action="Edit" method="post">
+    <input type="hidden" asp-for="Id" />
+    <label>Nombre:</label> <input asp-for="Nom" /><br />
+    <label>Descripción:</label> <input asp-for="Des" /><br />
+    <button type="submit">Guardar cambios</button>
+</form>
+
+<a asp-action="Index">Volver</a>
